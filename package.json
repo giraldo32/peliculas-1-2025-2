@@ -6,8 +6,27 @@
     "start": "node src/app.js"
   },
   "dependencies": {
-    "dotenv": "^16.0.0",
-    "express": "^4.18.2",
-    "mysql2": "^3.6.0"
-  }
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.2",
+    "mongoose": "^8.18.0",
+    "mysql2": "^3.6.0",
+    "uuid": "^11.1.0"
+  },
+  "description": "API REST Administrador de peliculas IUD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giraldo32/peliculas-1-2025-2.git"
+  },
+  "keywords": [
+    "peliculas",
+    "iudigital"
+  ],
+  "author": "elbermendoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giraldo32/peliculas-1-2025-2/issues"
+  },
+  "homepage": "https://github.com/giraldo32/peliculas-1-2025-2#readme"
 }
